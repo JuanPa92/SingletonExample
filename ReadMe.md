@@ -10,6 +10,16 @@ Asegura que una clase tenga una sola instancia y proporciona un punto de acceso 
 
 Se hace que el constructor predeterminado sea privado y se crea un método de creación estática que actúa como un constructor.
 
+## Estructura
+
+En la imagen vemos como el Cliente solo accede al metodo getInstance y la clase Singleton solo utiliza el contructor si no hay una instancia previa del objeto.
+
+![alt text](https://refactoring.guru/images/patterns/diagrams/singleton/structure.png)
+
+Fuente:
+
+	https://refactoring.guru/images/patterns/diagrams/singleton/structure.png
+
 ## Ventajas
 
 Puedes estar seguro de que una clase tiene una sola instancia.
