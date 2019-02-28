@@ -3,7 +3,7 @@
 
 Singleton es un patrón de diseño creativo que le permite asegurarse de que una clase tenga solo una instancia, mientras proporciona un punto de acceso global a esta instancia.
 
-## ¿Qué problema resuelve?
+## ¿Qué hace?
 Asegura que una clase tenga una sola instancia y proporciona un punto de acceso global a esa instancia
 
 ## ¿Cómo lo hace?
