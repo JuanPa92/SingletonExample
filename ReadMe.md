@@ -33,7 +33,7 @@ En esta clase primero se genera una instancia de la siguiente forma de Singleton
 
 	private static Singleton instance;
 
-Esto para que solo pueda modificarse dentro de la misma clase Singleton y ninguna extarna la pueda modificar. La variable String value solo se pone para asegurarnos que el objeto Singleton no sea modificado.
+Esto para que solo pueda modificarse dentro de la misma clase Singleton y ninguna externa la pueda modificar. La variable String value solo se pone para asegurarnos que el objeto Singleton no sea modificado.
 
 El constructor Singleton igualmente tiene que ser privado ya que debemos recordar que la clase Main (ni ninguna otra para el caso) podrá mandarlo a llamar y solo se ejetara UNA SOLA VEZ si es que no hay una instancia previa; el try y catch solo se utilizan para emular un inicio lento así que no es necesario prestar atención.
 
